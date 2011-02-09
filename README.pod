@@ -1,12 +1,12 @@
 =head1 NAME
 
-Mojolicious::Command::Generate::Makefile::MI - Module::Install Makefile Generator Command
+Mojolicious::Command::Generate::ModuleInstall - Module::Install Makefile Generator Command
 
 =head1 SYNOPSIS
 
-    use Mojolicious::Command::Generate::Makefile::MI;
+    use Mojolicious::Command::Generate::ModuleInstall;
 
-    my $makefile = Mojolicious::Command::Generate::Makefile::MI->new;
+    my $makefile = Mojolicious::Command::Generate::ModuleInstall->new;
     $makefile->run(@ARGV);
 
 =head1 DESCRIPTION
